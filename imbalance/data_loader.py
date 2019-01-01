@@ -31,6 +31,7 @@ def fetch_news(positive=[19]):
 def sample_positive_examples(X, y, p=1.0):
     """
        samples from the positive examples with uniform probability
+       todo: ensure at least 1 positive example
     """
     proba_mask = np.random.uniform(low=0.0, high=1.0, size=y.shape) <= p
     label_mask = y == 0

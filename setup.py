@@ -18,6 +18,7 @@ logging.basicConfig(format="%(asctime)s [%(levelname)s] %(message)s", stream=sys
 
 
 required_libraries=[
+    "seaborn>=0.9.0",
     "numpy>=1.13.3",
     "pandas==0.22.0",
     "tensorflow>=1.6.0",
