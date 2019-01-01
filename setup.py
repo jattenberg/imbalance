@@ -22,7 +22,6 @@ required_libraries=[
     "pandas==0.22.0",
     "tensorflow>=1.6.0",
     "matplotlib==2.1.2",
-    "flask==0.12.2",
     "scikit-learn>=0.19.1",
     "torch>=0.1.2",
     "jupyter>=1.0.0",
